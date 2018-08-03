@@ -1,0 +1,80 @@
+page-third {
+     ion-content{  
+    
+        background-image: url(https://lh5.ggpht.com/7iEqEROoV-l8oHbpYAp1OjY9qJJjAsxAybza2hmDKT8BX-ZnvN2avBD6SfYAiKV67w=h900);
+    //    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGs0uVHTvXxBaiIoRVsRDyosfvp2NrNnAfJ4EzyggKDwdkdxnn);
+    //     background-repeat: no-repeat;
+    //      background-size:cover;
+    //      display: block;
+    //       margin-left: auto;
+    //     margin-right: auto;
+    
+        }
+     .ma{
+        // background-color:rgb(39,139,242);
+         height: 100%;
+        //  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGs0uVHTvXxBaiIoRVsRDyosfvp2NrNnAfJ4EzyggKDwdkdxnn);
+         background-image: url(https://lh5.ggpht.com/7iEqEROoV-l8oHbpYAp1OjY9qJJjAsxAybza2hmDKT8BX-ZnvN2avBD6SfYAiKV67w=h900);
+     
+         background-repeat: no-repeat;
+          background-size:cover;
+          display: block;
+           margin-left: auto;
+         margin-right: auto;
+    }
+        h1{
+            color: white;
+        }
+        .centered {
+         position: fixed;
+            top: 19%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+             text-align: center;
+             font-size:67px;
+             margin-top: 10%;
+             color: white;	
+             margin-left: 5%;
+        }
+   
+        #mash{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        }
+       
+        
+#button1{
+    // width: 60px;
+    margin-left: 37%;
+    bottom: 20%;
+    position: absolute;
+    // padding: 5px;
+    // transform: translateX(-49);
+    text-align:center;
+    margin-bottom: 0%;
+    // background-color:black;
+    // color:black;
+}
+.bb{
+    height: 200px;
+    margin-top: -16%;
+    margin-bottom: -19%;
+    margin-left: 21%;
+    // text-align: center;
+}
+
+        
+#button2{
+    // width: 60px;
+    margin-left: 61%;
+    bottom: 20%;
+    position: absolute;
+    // padding: 5px;
+    // transform: translateX(-49);
+    text-align:center;
+    margin-bottom: 0%;
+}
+}

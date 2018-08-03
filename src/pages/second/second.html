@@ -1,0 +1,66 @@
+<!--
+  Generated template for the SecondPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+    <ion-title>WEATHER APP</ion-title>
+  <ion-navbar>
+   
+      <ion-searchbar placeholder="enter your city"
+        [(ngModel)]="city" name="search"  >
+      
+           
+          
+
+        </ion-searchbar>
+   
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+ 
+  <div class="ma">
+ 
+    <img class="bb" src={{conditionCode}}>
+
+
+<h1 style="text-align: center"> TODAY</h1>
+<h1 style="text-align: center"> {{city}}</h1>
+
+<br>
+
+<div style="text-align: center; bottom: 60%;" class="centered">
+
+   <p > {{(info?.main.temp-273.15).toFixed(2)}}°C</p>
+
+</div>
+
+<div class="split left">
+   <h1 style="position: absolute; left: 0; bottom: 40%;height: 5%">Min Temp<br> {{(info?.main.temp_min-273.15).toFixed(2)}} °C </h1>
+  
+  </div>
+
+  <div class="split left">
+    <h1 style="position: absolute; right: 0; bottom: 40%; height: 5%">Max Temp<br>{{(info?.main.temp_max-273.15).toFixed(2)}} °C</h1>
+ 
+</div>
+
+<div id="button1" style="text-align:center">
+    <button ion-button  style="text-align: center"  (click)="getResults()">Submit</button>
+  </div>
+
+  <div id="button2" style="text-align:center">
+  <button ion-button style="position: absolute;bottom: 30%; text-align:center; ; margin-left: 29%;" (click)="ref()">  <ion-icon ios="ios-refresh-circle" md="md-refresh-circle"></ion-icon></button>
+ </div>
+
+ <!-- <div *ngIf = "display== 1">
+    {{info?.weather[0].description}}
+    <img src={{conditionCode}}>
+    </div> -->
+
+  </div>
+</ion-content>

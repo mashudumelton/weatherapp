@@ -1,3 +1,45 @@
 page-home {
+    ion-content{  
+    
+        background-image: url(https://lh5.ggpht.com/7iEqEROoV-l8oHbpYAp1OjY9qJJjAsxAybza2hmDKT8BX-ZnvN2avBD6SfYAiKV67w=h900);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGs0uVHTvXxBaiIoRVsRDyosfvp2NrNnAfJ4EzyggKDwdkdxnn);
+        background-repeat: no-repeat;
+         background-size:cover;
+         display: block;
+          margin-left: auto;
+        margin-right: auto;
+        }
 
+     .button{
+       text-align: center;
+       background-color:lightblue;
+       color:black;
+       margin-bottom: 0px;
+        bottom:50%;
+    //    position: relative;
+
+    // //    width: 60px;
+    //    margin-left: 0.1%;
+    // //    bottom: 0;
+    //    position: fixed;
+    //     // padding: 10%;
+    //  transform: translateX(49);
+    // //    text-align: right;
+    // //    margin-bottom: 0%;
+       }
+    
+      .toolbar-background{
+        text-align: center;
+        background-color: lightblue;
+        
+    }
+    p{
+        color:lightblue; 
+
+    }
+    .bb{
+        height: 200px;
+        margin-top: -16%;
+        margin-bottom: -19%;
+    }
 }
